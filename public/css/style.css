@@ -267,18 +267,18 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .notification_error{ color:#f00; margin-bottom:5px }
 .notification_ok{ text-align: center;} 
 
-#ajax-contact-form label{float:left; width: 100px; line-height:31px; color:#d9e5eb;}
-#ajax-contact-form label.c{ margin-top:5px;}
+#ajax-contact-formn label{float:left; width: 100px; line-height:31px; color:#d9e5eb;}
+#ajax-contact-formn label.c{ margin-top:5px;}
 
-#ajax-contact-form input{ float:left; width:240px; height:29px; line-height: 29px; font-family:Arial, Helvetica, sans-serif; font-size:13px; color: #d9e5eb; background: #484f50; border: 1px solid #141e20; margin-bottom:3px; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;  padding-left: 5px;-moz-box-shadow: inset 2px 2px 5px #353a3b; -webkit-box-shadow: inset 2px 2px  5px #353a3b; box-shadow: inset 2px 2px 5px #353a3b; padding-right: 0;}
-#ajax-contact-form input:focus{border-color:#a1b2b4; }
+#ajax-contact-formn input{ float:left; width:240px; height:29px; line-height: 29px; font-family:Arial, Helvetica, sans-serif; font-size:13px; color: #d9e5eb; background: #484f50; border: 1px solid #141e20; margin-bottom:3px; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;  padding-left: 5px;-moz-box-shadow: inset 2px 2px 5px #353a3b; -webkit-box-shadow: inset 2px 2px  5px #353a3b; box-shadow: inset 2px 2px 5px #353a3b; padding-right: 0;}
+#ajax-contact-formn input:focus{border-color:#a1b2b4; }
 
-#ajax-contact-form textarea{ float:left; width:230px; height:140px; font-family:Arial, Helvetica, sans-serif; font-size:13px; color: #d9e5eb; background: #484f50; border: 1px solid #141e20; margin-bottom:5px; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; padding-left: 5px; padding-top: 5px;-moz-box-shadow: inset 2px 2px 5px #353a3b; -webkit-box-shadow: inset 2px 2px  5px #353a3b; box-shadow: inset 2px 2px 5px #353a3b; padding-right: 0;}
-#ajax-contact-form textarea:focus{border-color:#a1b2b4; }
+#ajax-contact-formn textarea{ float:left; width:230px; height:140px; font-family:Arial, Helvetica, sans-serif; font-size:13px; color: #d9e5eb; background: #484f50; border: 1px solid #141e20; margin-bottom:5px; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; padding-left: 5px; padding-top: 5px;-moz-box-shadow: inset 2px 2px 5px #353a3b; -webkit-box-shadow: inset 2px 2px  5px #353a3b; box-shadow: inset 2px 2px 5px #353a3b; padding-right: 0;}
+#ajax-contact-formn textarea:focus{border-color:#a1b2b4; }
 
-#ajax-contact-form img{float:left; width:110px; height:45px; margin-top:5px; margin-left:0px;}
+#ajax-contact-formn img{float:left; width:110px; height:45px; margin-top:5px; margin-left:0px;}
 
-#ajax-contact-form input.capthca{ float:left; width:118px; margin-top:0px; margin-right:10px;}
+#ajax-contact-formn input.capthca{ float:left; width:118px; margin-top:0px; margin-right:10px;}
 
-#ajax-contact-form input.submit{float: right; width:125px; height:31px; cursor:pointer; background:url(../images/submit.png) left top no-repeat; border:none; margin:10px 0 0px 0px; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;  text-indent:-999%;box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; -o-box-shadow: none; }
-#ajax-contact-form input.submit:hover{ background-position:bottom;}
+#ajax-contact-formn input.submit{float: right; width:125px; height:31px; cursor:pointer; background:url(../images/submit.png) left top no-repeat; border:none; margin:10px 0 0px 0px; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;  text-indent:-999%;box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; -o-box-shadow: none; }
+#ajax-contact-formn input.submit:hover{ background-position:bottom;}
