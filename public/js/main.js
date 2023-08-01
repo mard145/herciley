@@ -26,7 +26,7 @@ include('js/jquery.jplayer.min.js');
 //----All-Scripts----
 include('js/script.js');
 //----Include-Function----
-function include(url){ 
+ function include(url){ 
     console.log(url)
-  document.write('<script type="text/javascript" src="'+ url +'" ></script>'); 
+  document.write('<script defer type="text/javascript" src="'+ url +'" ></script>'); 
 }
