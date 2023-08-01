@@ -205,7 +205,9 @@ h3{ font-family:'Merriweather';font-weight:normal; font-size:20px; color:#d9e5eb
 transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;
 }
 .ul1 > li a:hover{ text-decoration:none; color:#fff; background-position: 10px 10px;}
-
+.capthca_none{
+    display: none;
+}
 .services2{width: 230px; float: left; margin-right: 30px; padding-bottom: 20px;}
 .services2.last{margin-right: 0;}
 .services2 .img{float: left; border:5px solid #637176; margin-right: 15px;}
