@@ -49,7 +49,7 @@ body{ background:#070e10; border:0; font: 12px Arial, Helvetica, sans-serif; col
 
 .kv3{width: 480px; height: 480px; position: absolute; left: 0; top: 0; z-index: 21;}
 
-.girl1{width: 216px; height: 705px; background: url(../images/her.png) 0 0 no-repeat; position: absolute; left: 382px; top: -133px; z-index: 20;}
+.girl1{width: 216px; height: 705px; background: url(../images/her.png) 0 0 no-repeat; position: absolute; left: 382px; top: -133px; z-index: 20;opacity: 0;}
 
 .girl2{width: 318px; height: 132px; background: url(../images/girl2.png) 0 0 no-repeat; position: absolute; left: 305px; top: 479px; z-index: 7;}
 

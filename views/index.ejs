@@ -659,9 +659,9 @@ E-mail: <a href="#">mail@bteamny.com</a>
 <div class="kv3">
   
 <header>
-  <a href="index.html" class="logo">    
+  <a href="/" class="logo">    
     <div class="txt1">Hercí Maciel</div>
-    <div class="txt2">dance studio</div>
+    <div class="txt2">Bellydance studio</div>
   </a>
 </header>
 
@@ -700,6 +700,7 @@ E-mail: <a href="#">mail@bteamny.com</a>
 
 <footer>
 <ul class="icons">
+    <li><a href="#"><img style="width: 33px;height: 33px;" src="images/instagram_icon.png"></a></li>
     <li><a href="#"><img src="images/social_ic1.png"></a></li>
     <li><a href="#"><img src="images/social_ic2.png"></a></li>
     <li><a href="#"><img src="images/social_ic3.png"></a></li>
@@ -724,7 +725,7 @@ E-mail: <a href="#">mail@bteamny.com</a>
 </div>
 <a href="#!/page_PRIVACY" class="privacy">Privacy policy</a>
 <div class="clear"></div>  
-<div class="copyright">Copyright © 2013. All rights reserved.</div>
+<div class="copyright">Copyright © 2023. All rights reserved.</div>
 <div class="clear"></div>
 </div>
 <div class="clear"></div>
@@ -745,6 +746,17 @@ E-mail: <a href="#">mail@bteamny.com</a>
 
 
 </div>
-
+<script>
+  let bd = document.body
+ 
+  bd.addEventListener('click',()=>{
+    let jp_aud = document.querySelectorAll('#jp_audio_0')
+    jp_aud[0].volume -= 0.6
+    console.log(jp_aud)
+   
+ 
+  })
+ 
+</script>
 </body>
 </html>
