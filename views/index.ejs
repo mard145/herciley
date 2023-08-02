@@ -525,16 +525,16 @@ E-mail: <a href="#">mail@bteamny.com</a>
             <div class="left">
               <div class="clear"></div>
             
-              <input type="text" name="name" value="Your full name:" onBlur="if(this.value=='') this.value='Your full name:'" 
-                        onFocus="if(this.value =='Your full name:' ) this.value=''">
+              <input type="text" name="name" placeholder="Name" >
+              <div class="clear"></div>
+
+              <input type="text" name="subject" placeholder="Subject" >
               <div class="clear"></div>
               
-              <input type="text" name="email" value="Your email:" onBlur="if(this.value=='') this.value='Your email:'" 
-                        onFocus="if(this.value =='Your email:' ) this.value=''">
+              <input type="text" name="email" placeholder="Email">
               <div class="clear"></div>
               
-              <input type="text" name="phone" value="Phone number:" onBlur="if(this.value=='') this.value='Phone number:'" 
-                        onFocus="if(this.value =='Phone number:' ) this.value=''">
+              <input type="text" name="phone" placeholder="Phone">
               <div class="clear"></div>
               <div class="capthca_none">
               <input class="capthca" type="text" name="capthca" value="Capthca:" onBlur="if(this.value=='') this.value='Capthca:'" 
@@ -547,8 +547,7 @@ E-mail: <a href="#">mail@bteamny.com</a>
             
             <div class="left pad_left1">
               <div class="clear"></div>
-              <textarea name="content" onBlur="if(this.value=='') this.value='Message:'" 
-                      onFocus="if(this.value =='Message:' ) this.value=''">Message:</textarea>
+              <textarea name="content" >Message:</textarea>
               <div class="clear"></div>
               <input style="z-index: 9999;" class="submit" type="submit" name="submit" value="submit">
               <div class="clear"></div>
@@ -747,16 +746,17 @@ E-mail: <a href="#">mail@bteamny.com</a>
 </div>
 <script type="text/javascript" src="js/main.js"></script>
 
+
 <script>
-  // let bd = document.body
+  let bd = document.body
  
-  // bd.addEventListener('click',()=>{
-  //   let jp_aud = document.querySelectorAll('#jp_audio_0')
-  //   jp_aud[0].volume -= 0.8
-  //   console.log(jp_aud)
+  bd.addEventListener('click',()=>{
+    let jp_aud = document.querySelectorAll('#jp_audio_0')
+    jp_aud[0].volume -= 0.8
+    console.log(jp_aud)
    
  
-  // })
+  })
  
 </script>
 </body>
